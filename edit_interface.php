@@ -2617,6 +2617,7 @@ function print_indi_form($nextaction, Individual $person = null, Family $family 
 			surn = surn.replace(/cki$/, "cka");
 			surn = surn.replace(/dzki$/, "dzka");
 			surn = surn.replace(/żki$/, "żka");
+			surn = surn.replace(/ny$/, "na");
 		}
 		// Commas are used in the GIVN and SURN field to separate lists of surnames.
 		// For example, to differentiate the two Spanish surnames from an English
