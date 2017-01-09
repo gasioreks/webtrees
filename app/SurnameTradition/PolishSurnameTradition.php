@@ -26,6 +26,7 @@ class PolishSurnameTradition extends PaternalSurnameTradition implements Surname
 		'ski\b'  => 'ska',
 		'żki\b'  => 'żka',
 		'na\b'   => 'ny',
+		'cha\b'  => 'chy',
 	];
 
 	/** @var string[] Inflect a surname for males */
@@ -35,6 +36,7 @@ class PolishSurnameTradition extends PaternalSurnameTradition implements Surname
 		'ska\b'  => 'ski',
 		'żka\b'  => 'żki',
 		'na\b'   => 'ny',
+		'cha\b'  => 'chy',
 	];
 
 	/**
